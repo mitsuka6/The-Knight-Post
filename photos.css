@@ -1,0 +1,10 @@
+
+.jumbotron {
+	display: flex;
+	font-family: 'Ranga';
+	background-image: url('https://c1.staticflickr.com/9/8630/30439990125_d32f9948fa_b.jpg');
+	background-size: cover;
+	height: 500px;
+	margin: 0 0 20px;
+	color: White;
+}

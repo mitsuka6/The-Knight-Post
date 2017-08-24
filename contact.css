@@ -1,0 +1,16 @@
+@font-face {
+    font-family:'Cookiesandcream';
+    src: url(Cookiesandcream.otf);
+    font-family: 'Old London';
+    src: url('OldLondon.otf');
+}
+
+.nav-item {
+	display: inline-block;
+    min-width: 150px;
+    font-family: 'Cookiesandcream';
+}
+
+.navbar-brand {
+	font-family: 'Cookiesandcream';
+}
