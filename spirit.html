@@ -1,10 +1,27 @@
-
 <!DOCTYPE html>
 
-<link href="/Users/mitsukakiyohara/Desktop/magicproject/The-Knight-Post/calendar.css" rel="stylesheet">
-<link href="/Users/mitsukakiyohara/Desktop/magicproject/The-Knight-Post/bootstrap.min.css" rel="stylesheet">
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-<head> 
+	<title> The Knight Post - Spirit </title>
+
+	<link href= "/Users/mitsukakiyohara/Desktop/magicproject/The-Knight-Post/spirit.css" rel="stylesheet">
+	<link href="/Users/mitsukakiyohara/Desktop/magicproject/The-Knight-Post/bootstrap.min.css" rel="stylesheet">
+	<link href="/Users/mitsukakiyohara/Desktop/magicproject/The-Knight-Post/jQuery.min.js" rel="stylesheet">
+	
+
+<script>
+$.get("navbar.html", function(data){
+    $("#nav-placeholder").replaceWith(data);
+});
+</script>
+
+
 <header class = "nav-container">
    <nav class="nav navbar-toggleable-md navbar-inverse bg-inverse fixed-top">
         <span class="navbar-toggler-icon"></span>
@@ -40,11 +57,19 @@
       </div>
     </nav>
   </header>
- </head>
+</head>
+
+<body> 
+	<section class = "jumbotron">
+		<div class ="container">
+			<div class="row text-center">
+			<h2> This Week's Spirit Forecast </h2>
+			<h3> Provided By Our Spirit Commissioner </h3>
+		</div>
+	</section>
+
+<iframe src="https://calendar.google.com/calendar/embed?src=menloschool.org_f6n7pi7njrme3pmm2fv4b3tpsg%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="1400" height="600" frameborder="0" scrolling="no"></iframe>
+</body>
 
 
-<body>
 
-<iframe src="https://calendar.google.com/calendar/embed?src=menloschool.org_23l3ei1kssqt7ciik413jjn69s%40group.calendar.google.com&ctz=America/Los_Angeles" style="border: 0" width="1200" height="600" frameborder="0" scrolling="no"></iframe>
-
-</body> 
