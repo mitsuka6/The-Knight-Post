@@ -1,0 +1,122 @@
+
+@font-face {
+    font-family:'Cookiesandcream';
+    src: url(Cookiesandcream.otf);
+}
+
+.nav-item {
+	display: inline-block;
+    min-width: 150px;
+    font-family: 'Cookiesandcream';
+}
+
+.navbar-brand {
+	font-family: 'Cookiesandcream';
+}
+
+
+.jumbotron {
+	display: flex;
+	background-image: url('https://c1.staticflickr.com/9/8630/30439990125_d32f9948fa_b.jpg');
+	background-size: cover;
+	height: 500px;
+	margin: 0 0 20px;
+}
+
+.container h2{
+	color: White;
+	font-family: 'Cookiesandcream', cursive;
+	font-size: 100px;
+	font-weight: 500;
+}
+
+.container h3{
+	color: White;
+	font-family: 'Cookiesandcream', cursive;
+	font-size: 50px;
+	font-weight: 250;
+}
+
+.body-container {
+	background-image: 
+	url('http://www.aturf.com/wp-content/uploads/2015/06/A-Turf_PremierXP.jpg');
+	background-size: cover;
+	margin:0 auto;
+	width: 100%;
+	height: auto;
+}
+
+
+ul {list-style-type: none;}
+body {font-family: 'Cookiesandcream', sans-serif;}
+
+
+/* Month header */
+.month {
+    padding: 70px 25px;
+    width: 100%;
+    background: #1abc9c;
+}
+
+/* Month list */
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+/* Previous button inside month header */
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+/* Weekdays (Mon-Sun) */
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color:#ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+/* Days (1-31) */
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color:#777;
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+} 

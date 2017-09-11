@@ -1,0 +1,60 @@
+@font-face {
+    font-family:'Cookiesandcream';
+    src: url(Cookiesandcream.otf);
+    font-family: 'Old London';
+    src: url('OldLondon.otf');
+}
+
+.jumbotron {
+	display: flex;
+	align-items: center;
+	background-image:
+	url('https://c1.staticflickr.com/8/7291/16377002922_982921e0b3_b.jpg');
+	background-size: cover;
+	background-position: 30px;
+	margin: 0 auto;
+	width: 100%;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	position: relative;
+
+}
+
+.container h1{ 
+	font-family: 'Cookiesandcream';
+	font-size: 100px
+	color: White;
+ }
+
+.container h1{ 
+	font-family: 'Cookiesandcream';
+	font-size: 50px;
+	color: White;
+ }	
+
+
+.nav-item {
+	display: inline-block;
+    min-width: 150px;
+    font-family: 'Cookiesandcream';
+}
+
+.navbar-brand {
+	font-family: 'Cookiesandcream';
+}
+
+.col-sm-6 photo-mitsuka{
+	display: flex;
+	align-items: left;
+	background-image:
+	url('https://c1.staticflickr.com/8/7291/16377002922_982921e0b3_b.jpg');
+	background-size: cover;
+	background-position: 30px;
+	margin: 0 auto;
+	width: 100%;
+	color: #ffffff;
+	height: 500px;
+	text-shadow: 0.25px 0.25px 0.25px #000000;
+	position: relative;
+}
